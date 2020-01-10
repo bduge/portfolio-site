@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Navbar from "./Navbar";
 import Header from "./Header";
-import Experience from "./Experience";
+import Experiences from "./Experiences";
 
 const experiences = [
 	{
@@ -38,7 +38,7 @@ function App() {
 
 			<Header />
 			<div className="container">
-				<Experience experiences={experiences} />
+				<Experiences experiences={experiences} />
 			</div>
 		</div>
 	);
