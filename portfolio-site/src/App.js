@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./Navbar";
 import Header from "./Header";
 import Experiences from "./Experiences";
+import Projects from "./Projects";
 
 const experiences = [
 	{
@@ -31,6 +32,27 @@ const experiences = [
 	}
 ];
 
+const projects = [
+	{
+		name: "Stylist.ai",
+		app_type: "Android Application",
+		github: "",
+		picture: "images/*.png",
+		technologies: "Django, ...",
+		description:
+			"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat quod sequi hic enim tempore facilis at, amet rem dolore vitae cupiditate ullam eius ab eligendi odio ratione non exercitationem rerum."
+	},
+	{
+		name: "Study Buddy",
+		app_type: "Mobile web Application",
+		github: "",
+		picture: "images/*.png",
+		technologies: "Express, ...",
+		description:
+			"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat quod sequi hic enim tempore facilis at, amet rem dolore vitae cupiditate ullam eius ab eligendi odio ratione non exercitationem rerum."
+	}
+];
+
 function App() {
 	return (
 		<div>
@@ -39,6 +61,7 @@ function App() {
 			<Header />
 			<div className="container">
 				<Experiences experiences={experiences} />
+				<Projects projects={projects} />
 			</div>
 		</div>
 	);
