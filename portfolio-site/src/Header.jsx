@@ -4,7 +4,7 @@ import "./Header.css";
 class Header extends Component {
 	render() {
 		return (
-			<div className="jumbotron jumbotron-fluid">
+			<div id="header" className="jumbotron jumbotron-fluid">
 				<div className="container">
 					<div className="row d-flex justify-content-center">
 						<div className="col-md-3">
@@ -30,7 +30,7 @@ class Header extends Component {
 						</a>
 					</div>
 					<div className="row d-flex justify-content-center">
-						<div className="col-md-7">
+						<div className="col-12 col-md-10">
 							<p>
 								Nice to meet you and thanks for visiting my website! My name is
 								Bill and I'm a software developer. I am currently a co-op

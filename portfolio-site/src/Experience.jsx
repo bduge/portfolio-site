@@ -1,7 +1,13 @@
 import React, { Component } from "react";
+import "./Experience.css";
 
 class Experience extends Component {
 	render() {
+		const description = this.props.description;
+		const bulletPoints = description.map(bullet => {
+			return <p>• {bullet}</p>;
+		});
+
 		return (
 			<div
 				key={this.props.company}
@@ -15,10 +21,15 @@ class Experience extends Component {
 					/>
 				</div>
 				<div className="col-7">
-					<h4>{this.props.company}</h4>
-					<h6 className="float-right">{this.props.date}</h6>
-					<h5>{this.props.role}</h5>
-					<p>{this.props.description}</p>
+					<div className="row d-flex justify-content-between align-items-end">
+						<h4>{this.props.company}</h4>
+						<h6 className="float-right">{this.props.location}</h6>
+					</div>
+					<div className="row d-flex justify-content-between align-items-end">
+						<h5>{this.props.role}</h5>
+						<h6 className="float-right">{this.props.date}</h6>
+					</div>
+					<div className="job-description">{bulletPoints}</div>
 				</div>
 			</div>
 		);

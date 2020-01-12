@@ -9,6 +9,7 @@ class Experiences extends Component {
 			return (
 				<Experience
 					company={experience.company}
+					location={experience.location}
 					date={experience.date}
 					logo={experience.logo}
 					role={experience.role}
