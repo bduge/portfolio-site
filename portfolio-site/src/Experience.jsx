@@ -5,7 +5,7 @@ class Experience extends Component {
 	render() {
 		const description = this.props.description;
 		const bulletPoints = description.map(bullet => {
-			return <p>• {bullet}</p>;
+			return <p key={bullet}>• {bullet}</p>;
 		});
 
 		return (

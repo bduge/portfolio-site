@@ -20,13 +20,13 @@ class Header extends Component {
 					</div>
 					<div className="row d-flex justify-content-center">
 						<a href="https://github.com/bduge/" className="mx-2">
-							<i className="fab fa-github"></i>
+							<i className="fab fa-github highlight"></i>
 						</a>
 						<a href="https://www.linkedin.com/in/bill-duge/" className="mx-2">
-							<i className="fab fa-linkedin"></i>
+							<i className="fab fa-linkedin highlight"></i>
 						</a>
 						<a href="https://www.linkedin.com/in/bill-duge/" className="mx-2">
-							<i className="fas fa-envelope"></i>{" "}
+							<i className="fas fa-envelope highlight"></i>{" "}
 						</a>
 					</div>
 					<div className="row d-flex justify-content-center">

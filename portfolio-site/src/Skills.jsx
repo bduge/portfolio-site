@@ -5,7 +5,7 @@ import "./Skill.css";
 class Skills extends Component {
 	renderSkills(skills) {
 		return skills.map(skill => {
-			return <Skill icon={skill.icon} name={skill.name} />;
+			return <Skill key={skill.name} icon={skill.icon} name={skill.name} />;
 		});
 	}
 
@@ -30,8 +30,8 @@ class Skills extends Component {
 
 		return (
 			<div id="skills">
-				<div className="row">
-					<h2>Skills</h2>
+				<div className="row my-4">
+					<h2 className="highlight">Skills</h2>
 				</div>
 				<div className="row">
 					<div className="col-6">

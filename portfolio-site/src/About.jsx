@@ -4,7 +4,7 @@ class About extends Component {
 	render() {
 		return (
 			<div>
-				<h2>About Me</h2>
+				<h2 className="highlight">About Me</h2>
 				<p>
 					Here are the things about me unrelated to work. I'm very passionate
 					about coding but there's a lot of other things I like to do with my

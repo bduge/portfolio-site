@@ -8,6 +8,7 @@ class Projects extends Component {
 		const rows = projects.map(project => {
 			return (
 				<Project
+					key={project.name}
 					name={project.name}
 					app_type={project.app_type}
 					technologies={project.technologies}
@@ -19,7 +20,7 @@ class Projects extends Component {
 		});
 		return (
 			<div id="projects">
-				<h2>Projects</h2>
+				<h2 className="highlight">Projects</h2>
 				<div>{rows}</div>
 			</div>
 		);

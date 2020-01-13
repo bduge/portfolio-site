@@ -4,24 +4,24 @@ import "./Navbar.css";
 class Navbar extends Component {
 	render() {
 		return (
-			<nav className="navbar navbar-expand-lg">
+			<nav className="navbar navbar-expand-lg fixed-top py-1">
 				<div className="container-fluid">
 					<a className="navbar-brand" href="#header">
-						<h2> &lt; Bill DuGe &gt;</h2>
+						<h2 className="highlight"> &lt; Bill DuGe &gt;</h2>
 					</a>
 				</div>
 				<div className="collapse navbar-collapse">
 					<ul className="navbar-nav ml-auto">
-						<a class="shortcut" href="#experience">
+						<a className="shortcut highlight" href="#experience">
 							Experience
 						</a>
-						<a class="shortcut" href="#projects">
+						<a className="shortcut highlight" href="#projects">
 							Projects
 						</a>
-						<a class="shortcut" href="#skills">
+						<a className="shortcut highlight" href="#skills">
 							Skills
 						</a>
-						<a class="shortcut" href="#about">
+						<a className="shortcut highlight" href="#about">
 							About
 						</a>
 					</ul>

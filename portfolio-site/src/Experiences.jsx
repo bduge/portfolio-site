@@ -8,6 +8,7 @@ class Experiences extends Component {
 		const rows = experiences.map(experience => {
 			return (
 				<Experience
+					key={experience.company}
 					company={experience.company}
 					location={experience.location}
 					date={experience.date}
@@ -19,7 +20,7 @@ class Experiences extends Component {
 		});
 		return (
 			<div id="experience">
-				<h2>Experience</h2>
+				<h2 className="highlight">Experience</h2>
 				<div>{rows}</div>
 			</div>
 		);
