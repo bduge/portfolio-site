@@ -108,7 +108,7 @@ const skills = [
 	{
 		name: "HTML",
 		type: "language",
-		level: "experienced",
+		level: "proficient",
 		icon: "fab fa-html5"
 	},
 	{
@@ -116,6 +116,114 @@ const skills = [
 		type: "technology",
 		level: "experienced",
 		icon: "fab fa-node"
+	},
+	{
+		name: "JavaScript",
+		type: "language",
+		level: "experienced",
+		icon: "fab fa-js-square"
+	},
+	{
+		name: "C",
+		type: "language",
+		level: "experienced",
+		icon: "devicon-c-plain"
+	},
+	{
+		name: "C++",
+		type: "language",
+		level: "experienced",
+		icon: "devicon-cplusplus-plain"
+	},
+	{
+		name: "CSS",
+		type: "language",
+		level: "proficient",
+		icon: "fab fa-css3-alt"
+	},
+	{
+		name: "Java",
+		type: "language",
+		level: "proficient",
+		icon: "fab fa-java"
+	},
+	{
+		name: "SQL",
+		type: "language",
+		level: "proficient",
+		icon: "fas fa-database"
+	},
+	{
+		name: "Bash",
+		type: "language",
+		level: "proficient",
+		icon: "fas fa-dollar-sign"
+	},
+	{
+		name: "ExpressJS",
+		type: "technology",
+		level: "experienced",
+		icon: "devicon-express-original"
+	},
+	{
+		name: "Django",
+		type: "technology",
+		level: "experienced",
+		icon: "devicon-django-plain"
+	},
+	{
+		name: "MySQL",
+		type: "technology",
+		level: "proficient",
+		icon: "devicon-mysql-plain"
+	},
+	{
+		name: "MongoDB",
+		type: "technology",
+		level: "proficient",
+		icon: "devicon-mongodb-plain"
+	},
+	{
+		name: "jQuery",
+		type: "technology",
+		level: "proficient",
+		icon: "devicon-jquery-plain"
+	},
+	{
+		name: "git",
+		type: "technology",
+		level: "experienced",
+		icon: "devicon-git-plain"
+	},
+	{
+		name: "Bootstrap 4",
+		type: "technology",
+		level: "experienced",
+		icon: "devicon-bootstrap-plain"
+	},
+	{
+		name: "electronJS",
+		type: "technology",
+		level: "proficient",
+		icon: "icofont-electron"
+	},
+	{
+		name: "Google Cloud",
+		type: "technology",
+		level: "proficient",
+		icon: "fas fa-cloud"
+	},
+	{
+		name: "Selenium",
+		type: "technology",
+		level: "proficient",
+		icon: "fas fa-mouse-pointer"
+	},
+	{
+		name: "Racket",
+		type: "language",
+		level: "proficient",
+		icon: "fas fa-star-of-life"
 	}
 ];
 
