@@ -13,7 +13,7 @@ class Project extends Component {
 					<h5>{this.props.app_type}</h5>
 					<p>{this.props.description}</p>
 				</div>
-				<div className="col-">
+				<div className="col-4">
 					<img
 						className="img-fluid"
 						src={this.props.picture}

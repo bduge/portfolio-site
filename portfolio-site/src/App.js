@@ -49,19 +49,46 @@ const projects = [
 		name: "Stylist.ai",
 		app_type: "Android Application",
 		github: "",
-		picture: "images/*.png",
-		technologies: "Django, ...",
+		picture: "images/stylist.jpeg",
+		technologies: "Django, Java, MySQL, Google Cloud, Tensorflow",
 		description:
-			"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat quod sequi hic enim tempore facilis at, amet rem dolore vitae cupiditate ullam eius ab eligendi odio ratione non exercitationem rerum."
+			"Stylist.ai is the perfect app for individuals who want to get their day going in a hurry and stay stylish at the same time. The app stores a database of the user's clothing items and uses the current weather and personal preferences to recommend outfits to wear. Personal preferences are trained over time in a neural network using tensor flow based on feedback of outfits given by the user."
 	},
 	{
 		name: "Study Buddy",
-		app_type: "Mobile web Application",
+		app_type: "Mobile Web Application",
 		github: "",
-		picture: "images/*.png",
-		technologies: "Express, ...",
+		picture: "images/studybuddy.png",
+		technologies: "ExpressJS, NodeJS, Firebase, Azure, HMTL, CSS",
 		description:
-			"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat quod sequi hic enim tempore facilis at, amet rem dolore vitae cupiditate ullam eius ab eligendi odio ratione non exercitationem rerum."
+			"College students often find it to maintain friendships while in school. Study buddy is an application that helps users make friends/meet people to study with by filtering students in the area that are taking the similar courses and matches students based on similar interests. Our applicaiton implements Microsoft Azure's machine learning matching algorithm to provide the best possible matches."
+	},
+	{
+		name: "Reddit Cyberbullying Detection Bot",
+		app_type: "Python Script",
+		github: "",
+		picture: "images/reddit.png",
+		technologies: "Python, Scikit-Learn",
+		description:
+			"Online communities provide a great platform for sharing and discussing ideas. Unfortunately, cyberbullying remains a prevalent problem in many online groups. This bot aims to tackle this issue in Reddit's comment sections by scrapping comments from top posts on subreddits and running them through our trained nerual network engine aimed to detect cyberbulling."
+	},
+	{
+		name: "Skin Profile",
+		app_type: "Web Application",
+		github: "",
+		picture: "images/skinprofile.png",
+		technologies: "Javascript, PHP, MySQL, HTML, CSS, Bootstrap",
+		description:
+			"Skin Profile is a web applicatino aimed to help users better manage their skin care routine by recommending products at an affordable price. Our application stores user information about their skin type and characteristics and based on this information recommends the most suitable products in our database. "
+	},
+	{
+		name: "OCR Word Search Solver",
+		app_type: "Desktop Application",
+		github: "",
+		picture: "images/wordsearch.png",
+		technologies: "Python, Tesseract-OCR, Tkinter",
+		description:
+			"Using the Tesseract-OCR (optical character recognition) engine, this application takes in an image of any word search and is able to replicate its contents in encoded text and find any hidden words. The program then uses Tkinter to generate a GUI that displays the solved word search with words highlighted."
 	}
 ];
 
