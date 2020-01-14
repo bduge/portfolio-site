@@ -24,6 +24,14 @@ class Navbar extends Component {
 						<a className="shortcut highlight" href="#about">
 							About
 						</a>
+						<a
+							className="shortcut highlight"
+							href="resume/billduge-resume.pdf"
+							target="_blank"
+							rel="noreferrer noopener"
+						>
+							Resume
+						</a>
 					</ul>
 				</div>
 			</nav>

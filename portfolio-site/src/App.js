@@ -48,16 +48,16 @@ const projects = [
 	{
 		name: "Stylist.ai",
 		app_type: "Android Application",
-		github: "",
+		github: "https://github.com/SamYu/stylist.ai",
 		picture: "images/stylist.jpeg",
 		technologies: "Django, Java, MySQL, Google Cloud, Tensorflow",
 		description:
 			"Stylist.ai is the perfect app for individuals who want to get their day going in a hurry and stay stylish at the same time. The app stores a database of the user's clothing items and uses the current weather and personal preferences to recommend outfits to wear. Personal preferences are trained over time in a neural network using tensor flow based on feedback of outfits given by the user."
 	},
 	{
-		name: "Study Buddy",
+		name: "Study Buddies",
 		app_type: "Mobile Web Application",
-		github: "",
+		github: "https://github.com/karkevin/Study-Buddies",
 		picture: "images/studybuddy.png",
 		technologies: "ExpressJS, NodeJS, Firebase, Azure, HMTL, CSS",
 		description:
@@ -66,7 +66,7 @@ const projects = [
 	{
 		name: "Reddit Cyberbullying Detection Bot",
 		app_type: "Python Script",
-		github: "",
+		github: "https://github.com/bduge/Cyberbullying-Detection-Bot",
 		picture: "images/reddit.png",
 		technologies: "Python, Scikit-Learn",
 		description:
@@ -75,16 +75,16 @@ const projects = [
 	{
 		name: "Skin Profile",
 		app_type: "Web Application",
-		github: "",
+		github: "https://github.com/menavya16/skinprofile",
 		picture: "images/skinprofile.png",
 		technologies: "Javascript, PHP, MySQL, HTML, CSS, Bootstrap",
 		description:
-			"Skin Profile is a web applicatino aimed to help users better manage their skin care routine by recommending products at an affordable price. Our application stores user information about their skin type and characteristics and based on this information recommends the most suitable products in our database. "
+			"Skin Profile is a web applicatino aimed to help users better manage their skin care routine by recommending products at an affordable price. Our application stores user information about their skin type and characteristics and based on this information recommends the most suitable products in our database. Winner of Top 10 project prize at University of Toronto Hacks VI."
 	},
 	{
 		name: "OCR Word Search Solver",
 		app_type: "Desktop Application",
-		github: "",
+		github: "https://github.com/bduge/OCR-Word-Search-Solver",
 		picture: "images/wordsearch.png",
 		technologies: "Python, Tesseract-OCR, Tkinter",
 		description:
@@ -108,7 +108,7 @@ const skills = [
 	{
 		name: "HTML",
 		type: "language",
-		level: "proficient",
+		level: "experienced",
 		icon: "fab fa-html5"
 	},
 	{

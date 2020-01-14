@@ -9,7 +9,7 @@ class Header extends Component {
 					<div className="row d-flex justify-content-center">
 						<div className="col-md-3">
 							<img
-								className="img-fluid headshot my-3 py-3"
+								className="img-fluid headshot my-3 py-1"
 								src="/images/headshot.jpg"
 								alt="Headshot"
 							></img>
@@ -18,24 +18,24 @@ class Header extends Component {
 					<div className="row d-flex justify-content-center">
 						<h1>Bill DuGe</h1>
 					</div>
-					<div className="row d-flex justify-content-center">
+					<div className="row d-flex justify-content-center my-2">
 						<a href="https://github.com/bduge/" className="mx-2">
 							<i className="fab fa-github highlight"></i>
 						</a>
 						<a href="https://www.linkedin.com/in/bill-duge/" className="mx-2">
 							<i className="fab fa-linkedin highlight"></i>
 						</a>
-						<a href="https://www.linkedin.com/in/bill-duge/" className="mx-2">
+						<a href="mailto:billduge11@gmail.com" className="mx-2">
 							<i className="fas fa-envelope highlight"></i>{" "}
 						</a>
 					</div>
 					<div className="row d-flex justify-content-center">
-						<div className="col-12 col-md-10">
+						<div className="col-12 col-md-9">
 							<p>
 								Nice to meet you and thanks for visiting my website! My name is
 								Bill and I'm a software developer. I am currently a co-op
 								computer science student at the University of Waterloo in
-								Canada.
+								Canada, but I lived in Edmonton, Canada for most of my life.
 							</p>
 							<p>
 								I am currently seeking a 4 month internship for Summer 2020.
